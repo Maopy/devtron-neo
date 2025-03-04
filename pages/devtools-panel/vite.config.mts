@@ -13,5 +13,8 @@ export default withPageConfig({
   publicDir: resolve(rootDir, 'public'),
   build: {
     outDir: resolve(rootDir, '..', '..', 'dist', 'devtools-panel'),
-  },
+    rollupOptions: {
+      external: ['chrome'],
+    },
+  }
 })

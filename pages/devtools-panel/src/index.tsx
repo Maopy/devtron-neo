@@ -10,7 +10,6 @@ async function init () {
   }
 
   const root = createRoot(appContainer)
-
   root.render(
     <StrictMode>
       <Panel />

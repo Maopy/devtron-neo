@@ -49,7 +49,7 @@ interface AppSidebarProps {
 
 export function AppSidebar ({ onPaneChange, activePane }: AppSidebarProps) {
   return (
-    <Sidebar collapsible='icon'>
+    <Sidebar collapsible='icon' className='border-r border-zinc-600'>
       <SidebarContent className='flex flex-col h-full justify-between'>
         <SidebarGroup>
           <SidebarGroupLabel>Devtron</SidebarGroupLabel>
